@@ -1,0 +1,14 @@
+# Installation
+pip install joblib
+pip install scikit-learn
+pip install pandas
+pip install numpy
+pip install cupy
+pip install scipy
+
+# Usage
+1. Build cython file
+python setup.py build_ext --inplace
+
+2. Execute runner
+python runner.py
